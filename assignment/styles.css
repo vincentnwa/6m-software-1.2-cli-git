@@ -1,0 +1,367 @@
+/* Using most common media screen for Desktop, Tablets, and phone */
+
+/* Media screen for Desktop */
+@media screen and (min-width: 1024px) {
+  .main-wrapper.container-fluid {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    margin: 1em auto;
+    padding: 2em;
+    border: 3px solid black;
+    /* background-color: blueviolet; */
+  }
+
+  .header-text {
+    background-color: rgb(242, 228, 227);
+  }
+
+  h1.header-text.display-1 {
+    display: flex;
+    margin: 0.2em;
+    justify-content: center;
+    font-size: 2rem;
+  }
+
+  h2.header-text.display-2 {
+    display: flex;
+    margin: 0.1em;
+    justify-content: center;
+    font-size: 1.5rem;
+  }
+
+  div.profile {
+    display: inline-flex;
+  }
+
+  div.aboutme-profile {
+    display: flex;
+    /* background-color: aqua; */
+  }
+
+  img.aboutme-img.my-image {
+    display: flex;
+    width: 10em;
+    height: 9em;
+    margin-top: 1em;
+    align-items: center;
+    padding: 0.2em;
+    border: 3px solid black;
+    border-radius: 50%;
+  }
+
+  article.profolio {
+    display: inline-flexbox;
+    width: 45%;
+    margin: 0 2em;
+    font-size: 1.5rem;
+    text-align: justify;
+  }
+
+  .my-flag {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+  }
+
+  img.flag {
+    display: inline-flex;
+    width: 2em;
+    border: 1px solid black;
+    border-radius: 1em;
+  }
+
+  .from-where-profile {
+    display: flex;
+    width: 45%;
+    height: 2em;
+    align-content: center;
+    margin: 1em 2em;
+    font-size: 1.5rem;
+    gap: 1em;
+  }
+
+  p.message {
+    display: flex;
+    margin: 1.5em auto;
+    align-items: center;
+    align-content: center;
+  }
+
+  .profile-hobbies {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin: 1em auto;
+    border-radius: 20px;
+    background-color: rgb(218, 185, 249);
+  }
+
+  .profile-hobbies.hobbies-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100%;
+  }
+
+  .hobby-item {
+    display: inline-flex;
+    align-items: center;
+    margin: 0 3em;
+    gap: 1em;
+  }
+
+  .hobbies-logo {
+    width: 2em;
+  }
+}
+
+/* Media screen for Tablets */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .main-wrapper.container-fluid {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: auto;
+    margin: 3em auto;
+    padding: 1em;
+    border: 2px solid black;
+    /* background-color: blueviolet; */
+  }
+
+  .header-text {
+    background-color: rgb(242, 228, 227);
+  }
+
+  h1.header-text.display-1 {
+    display: flex;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    justify-content: center;
+    font-size: 2rem;
+  }
+
+  h2.header-text.display-2 {
+    display: flex;
+    margin-top: 0.2em;
+    margin-bottom: 0.5em;
+    justify-content: center;
+    font-size: 1.2rem;
+  }
+
+  div.profile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  div.aboutme-profile {
+    display: flex;
+    /* background-color: aqua; */
+  }
+
+  img.aboutme-img.my-image {
+    display: flex;
+    width: 8em;
+    height: 8em;
+    margin-top: 1em;
+    align-items: center;
+    padding: 0.2em;
+    border: 3px solid black;
+  }
+
+  article.profolio {
+    display: block;
+    width: 90%;
+    margin: 1em 1em;
+    font-size: 1.3rem;
+    text-align: justify;
+  }
+
+  img.flag {
+    display: inline-flex;
+    width: 2em;
+    border: 1px solid black;
+    border-radius: 1em;
+  }
+
+  div.from-where-profile {
+    display: flex;
+    width: 90%;
+    height: 2em;
+    align-content: center;
+    margin: 1em auto;
+    gap: 1em;
+  }
+
+  div.my-flag {
+    display: flex;
+    margin: 0 auto;
+    gap: 1em;
+  }
+
+  p.message {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    font-size: 1.3rem;
+  }
+
+  .profile-hobbies {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin: 0.5em auto;
+    border-radius: 20px;
+    background-color: rgb(218, 185, 249);
+  }
+
+  .profile-hobbies.hobbies-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100%;
+  }
+
+  .hobby-item {
+    display: inline-flex;
+    align-items: center;
+    margin: 0.5em;
+    font-size: 1.2rem;
+    gap: em;
+  }
+
+  .hobbies-logo {
+    width: 2em;
+    margin-right: 1em;
+  }
+}
+
+/* Media screen for Phone */
+@media screen and (max-width: 767px) {
+  .main-wrapper.container-fluid {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    margin: 0.5em auto;
+    padding: 0.2em;
+    border: 2px solid black;
+    /* background-color: blueviolet; */
+  }
+
+  .header-text {
+    background-color: rgb(242, 228, 227);
+  }
+
+  h1.header-text.display-1 {
+    display: flex;
+    margin: 0.2em;
+    justify-content: center;
+    font-size: 2rem;
+  }
+
+  h2.header-text.display-2 {
+    display: flex;
+    margin: 0.1em;
+    justify-content: center;
+    font-size: 1.2rem;
+  }
+
+  .aboutme-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em 0;
+    /* background-color: aqua; */
+  }
+
+  img.aboutme-img.my-image {
+    width: 8em;
+    height: 8em;
+    margin-top: 1em;
+    border: 3px solid black;
+    padding: 0.2em;
+    border-radius: 50%;
+  }
+
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    text-align: center;
+  }
+
+  article.profolio {
+    margin: 0.5em 0.5em;
+    font-size: 0.9rem;
+    text-align: justify;
+    font-size: 1.3rem;
+  }
+
+  .from-where-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+    background-color: rgb(118, 92, 142);
+    padding: 0.2em;
+    border-radius: 10px;
+  }
+
+  .my-flag {
+    display: flex;
+    margin: 0.6em auto 0 auto;
+    gap: 2em;
+  }
+
+  .flag.origin-country {
+    width: 2.5em;
+    height: 2.5em;
+  }
+
+  .message {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-size: 0.9rem;
+    font-size: 1.2rem;
+    color: white;
+  }
+
+  .profile-hobbies {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    margin: 0.5em auto;
+    border-radius: 10px;
+    background-color: rgb(218, 185, 249);
+  }
+
+  .profile-hobbies.hobbies-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100%;
+  }
+
+  .hobby-item {
+    display: inline-flex;
+    align-items: center;
+    margin: 0.5em 0;
+    font-size: 1.2rem;
+    gap: em;
+  }
+
+  .hobbies-logo {
+    width: 1.5em;
+    margin-right: 1.2em;
+  }
+}
